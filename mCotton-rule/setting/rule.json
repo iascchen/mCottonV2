@@ -1,0 +1,9 @@
+{
+  "general": {
+    "queryMaxLimit": 50
+  },
+  "rule": {
+    "enabled": true,
+    "interval":3000
+  }
+}

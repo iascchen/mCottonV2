@@ -1,0 +1,16 @@
+{
+  "general": {
+    "queryMaxLimit": 50
+  },
+  "mqtt": {
+    "enabled": true,
+    "server": {
+      "dbUrl": "mongodb://mcotton:Microduino@dds-2ze04b800265f5b42.mongodb.rds.aliyuncs.com:3717/mqtt-test",
+      "port": 1883
+    },
+    "trigger": {
+      "host": "dev.microduino.cn",
+      "port": 1883
+    }
+  }
+}

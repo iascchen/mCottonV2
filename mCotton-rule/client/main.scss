@@ -1,0 +1,71 @@
+html {
+	height: 100%;
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+body {
+	position: relative;
+	min-height: 100%;
+	margin: 0;
+	padding-bottom: 56px;
+}
+
+#pageFooter {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 0;
+}
+
+container { // temp: will be component later
+	max-width: 1280px; // or */ padding: 0 30px;
+	margin: 0 auto;
+	display: block;
+	/*> div { // GridList
+		> div { // GridTail
+			height: auto !important;
+		}
+	}*/
+}
+
+.PagerContainer {
+	button {
+		height: auto !important;
+		line-height: normal !important;
+		> div > div {
+			height: auto !important;
+		}
+	}
+}
+
+#AffixContainer {
+	&.affix {
+		> .fix {
+			position: fixed;
+			top: 0;
+			left: 0;
+			right: 0;
+			z-index: 9999;
+		}
+		> .spacer {
+			height: 48px;
+		}
+	}
+}
+
+#SwipeableViews {
+	overflow: hidden;
+	> div {
+		overflow: visible;
+		> * {
+			overflow: visible !important;
+		}
+	}
+}

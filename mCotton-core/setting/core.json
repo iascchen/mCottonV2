@@ -1,0 +1,8 @@
+{
+  "general": {
+    "queryMaxLimit": 50
+  },
+  "public": {
+    "remoteConnection":"http://localhost:9700/"
+  }
+}

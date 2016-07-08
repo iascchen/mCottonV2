@@ -1,0 +1,29 @@
+{
+  "name": "mCotton2Web",
+  "private": true,
+  "scripts": {
+    "start": "meteor --settings setting/account.json"
+  },
+  "dependencies": {
+    "formsy-react": "^0.18.1",
+    "formsy-react-components": "^0.8.0",
+    "mantra-core": "^1.7.0",
+    "material-ui": "^0.15.1",
+    "meteor-node-stubs": "~0.2.0",
+    "react": "^15.1.0",
+    "react-addons-pure-render-mixin": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "react-mounter": "^1.2.0",
+    "react-tap-event-plugin": "^1.0.0",
+    "utf-8-validate": "^1.2.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.1.0",
+    "eslint": "^2.13.1",
+    "eslint-plugin-import": "^1.9.2",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-jsx-a11y": "^1.4.2",
+    "eslint-plugin-meteor": "^3.6.0",
+    "eslint-plugin-react": "^5.1.1"
+  }
+}

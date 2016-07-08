@@ -1,0 +1,52 @@
+# Meteor packages used by this project, one per line.
+# Check this file (and the other files in this directory) into your repository.
+#
+# 'meteor add' and 'meteor remove' will edit this file for you,
+# but you can also edit it by hand.
+
+##############################
+# Basic
+##############################
+
+meteor-base             # Packages every Meteor app needs to have
+mobile-experience       # Packages for a great mobile UX
+mongo                   # The database Meteor supports right now
+reactive-var            # Reactive variable for tracker
+tracker                 # Meteor's client-side reactive programming library
+check
+
+standard-minifier-css   # CSS minifier run for production mode
+standard-minifier-js    # JS minifier run for production mode
+es5-shim                # ECMAScript 5 compatibility for older browsers.
+ecmascript              # Enable ECMAScript2015+ syntax in app code
+
+##############################
+# Basic
+##############################
+
+underscore
+iron:router
+
+##############################
+# Account
+##############################
+
+accounts-password
+# accounts-facebook
+# accounts-twitter
+# accounts-weibo
+# accounts-github
+# accounts-google
+accounts-base
+
+alanning:roles
+
+##############################
+# UI
+##############################
+
+blaze-html-templates    # Compile .html files into Meteor Blaze views
+twbs:bootstrap
+# accounts-ui
+ian:accounts-ui-bootstrap-3
+mrt:accounts-admin-ui-bootstrap-3

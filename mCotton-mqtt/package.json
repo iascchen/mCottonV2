@@ -1,0 +1,29 @@
+{
+  "name": "mCottonMqtt",
+  "private": true,
+  "scripts": {
+    "start": "meteor --settings setting/mqtt.json"
+  },
+  "dependencies": {
+    "bufferutil": "^1.2.1",
+    "chai": "^3.5.0",
+    "eslint-plugin-import": "^1.10.2",
+    "eslint-plugin-jsx-a11y": "^1.5.5",
+    "fibers": "^1.0.13",
+    "meteor-node-stubs": "~0.2.0",
+    "mosca": "^1.4.1",
+    "mqtt": "^1.11.0",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "utf-8-validate": "^1.2.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.0.4",
+    "eslint": "^2.13.1",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.9.2",
+    "eslint-plugin-jsx-a11y": "^1.4.2",
+    "eslint-plugin-meteor": "^3.6.0",
+    "eslint-plugin-react": "^5.1.1"
+  }
+}
